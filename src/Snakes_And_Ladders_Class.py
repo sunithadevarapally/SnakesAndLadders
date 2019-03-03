@@ -1,3 +1,5 @@
+#This file contains the basic classes.
+
 import random
 class Player:
 	def __init__(self, name, position = 0):
