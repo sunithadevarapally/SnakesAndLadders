@@ -15,10 +15,10 @@ class SnakesAndLadders:
 			players_list.append(player)
 		return players_list
 	
-	#snakes_list = {}
-	#ladders_list = {}
-	#snakes_list = {17:Snake(17,7), 54:Snake(54,34), 62:Snake(62,18), 64:Snake(64,60), 87:Snake(87,24), 93:Snake(93,73), 95:Snake(95,75), 99:Snake(99,78)}
-	#ladders_list = {4:Ladder(4,14), 9:Ladder(9,31), 20:Ladder(20,38), 28:Ladder(28,84), 40:Ladder(40,59), 63:Ladder(63,81), 71:Ladder(71,91)}
+	snakes_list = {}
+	ladders_list = {}
+	snakes_list = {25:Snake(25,5), 34:Snake(34, 1), 47:Snake(47,19), 65:Snake(65,52), 87:Snake(87,57), 91:Snake(91,61), 99:Snake(99,69)}
+	ladders_list = {3:Ladder(3,51), 6:Ladder(6,27), 20:Ladder(20,70), 36:Ladder(36,55), 63:Ladder(63,95), 68:Ladder(68, 98)}
 	#no_of_players = 2#int(input("Enter number of players : "))
 	
 	def take_snake_input(self):
